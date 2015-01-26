@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@android:color/darker_gray" >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/name"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvName"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/gender"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvGender"
+        android:layout_alignBottom="@+id/tvGender"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:text="Age: "
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAgeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvGender"
+        android:layout_alignBottom="@+id/tvGender"
+        android:layout_alignLeft="@+id/tvAge"
+        android:layout_marginLeft="35dp"
+        android:text="@string/age"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/birth"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSeniority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvBirth"
+        android:layout_alignBottom="@+id/tvBirth"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="110dp"
+        android:text="@string/seniority"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvSeniorityValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvBirth"
+        android:layout_alignBottom="@+id/tvBirth"
+        android:layout_alignLeft="@+id/tvSeniority"
+        android:layout_marginLeft="70dp"
+        android:text="Seniority"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAddingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSeniority"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/adding_date"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GreenDaoTestingProject</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="birth">Birthday</string>
+    <string name="seniority">Seniority: </string>
+    <string name="action_add_data">Add data</string>
+    <string name="adding_date"> - Added on </string>
+
+</resources>
